@@ -1,0 +1,350 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(164, 164, 164);
+    display: flex;
+    justify-content: center;
+    
+}
+
+main {
+    width: 800px;
+    height: 1800px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+
+}
+
+.headermarketing1 {
+    display: flex;
+    width: 780px;
+    height: 118px;
+    padding: 24px 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; 
+    height: 70px;
+    background-color: #0D6EFD;
+}
+
+.containermarketing1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero1 {
+    display: flex;
+    width: 800px;
+    height: 642px;
+    padding: 24px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: #0F53B8;
+}
+
+.imghero {
+    width: 550px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.content1 {
+    display: flex;
+    width: 600px;
+    height: 651px;
+    padding: 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: #FFF;
+    margin-top: 128px;
+}
+
+.textgiveknowlegde1 {
+    width: 513px;
+    height: 159px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.frame1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding-top: 24px;
+}
+
+.frame-A {
+    display: flex;
+    width: 160px;
+    height: 160px;
+    padding: 20px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: #F5F5F5;
+}
+
+.freesending1 {
+    width: 126px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.textgiveknowlegde2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 127px;
+    flex-shrink: 0;
+    /* align-self: stretch; */
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.visitourwebsitebutton {
+    display: flex;
+    width: 500px;
+    height: 60px;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #0F53B8;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text-ourweb{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.line {
+    margin-top: 20px;
+    width: 797px;
+    height: 0px;
+    stroke-width: 4px;
+    stroke: #0D6EFD;
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    width: 600px;
+    height: 284px;
+    padding: 24px 64px 0px 64px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.socialtext-1 {
+    width: 472px;
+    height: 96px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.iconzone {
+    display: flex;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.keepconnectedtext{
+    height: 86px;
+    flex-shrink: 0;
+    align-self: stretch;
+    color: rgba(0, 0, 0, 0.77);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Móviles: entre 320 y 480 píxeles.
+Tablets: entre 768 y 1024 píxeles.
+Pantallas grandes: más de 1200 píxeles1. */
+
+@media (max-width: 420px) {
+
+    body {
+        width: auto;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    main {
+        width: 420px;
+        height: 1600px;
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        background: #fff;
+    
+    }
+    
+    .headermarketing1 {
+        display: flex;
+        width: auto;
+        height: 118px;
+        padding: 24px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; 
+        height: 70px;
+        background-color: #0D6EFD;
+    }
+
+    .hero1 {
+        background: #0F53B8;
+
+        display: flex;
+        width: 417px;
+        height: auto;
+        padding: 24px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .imghero {
+        width: 80%;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 10px;
+    }
+
+    .content1 {
+        width: 420px;
+        background: none;
+        padding: 64px 0px 0px 0px;
+        
+    }
+
+    .textgiveknowlegde1 {
+        width:384px;
+        height: 244px;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .frame1 {
+        width: 120px;
+        height: 120px;
+
+        padding: 60px 8px;
+    }
+
+    .frame-A {
+        display: flex;
+        width: 160px;
+        height: 160px;
+        padding: 20px 24px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        background: #F5F5F5;
+    }
+
+    .textgiveknowlegde2 {
+        width: 354px;
+        height: 169px;
+        flex-shrink: 0;
+    }
+
+    /* .textlookingfor {
+        justify-content: center;
+        justify-self: center;
+    } */
+
+    .visitourwebsitebutton {
+        display: flex;
+        width: 366px;
+        height: 60px;
+        padding: 8px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+    }
+
+    .line {
+        /* display: none; */
+        width: 320px;
+        stroke-width: 6px;
+        padding-bottom: 30px;       
+        
+    }
+
+    .social {
+        padding: 0px 0px 0px 0px;
+        width: 420px;
+    }
+
+    .socialtext-1 {
+        width: 354px;
+        height: 122px;
+        flex-shrink: 0;
+    }
+
+    .keepconnectedtext {
+        font-weight: 100;
+        background-color: #FFF;
+        
+    }
+
+}
